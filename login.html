@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baap er bank</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2 class="text-5xl text-center mt-14">Welcome to my <span
+                class="font-semibold text-pink-600">Baap-er-Bank</span>!!!</h2>
+    </header>
+    <main>
+        <section class="bg-green-200 w-3/4 mx-auto p-8 mt-6">
+            <h3 class="text-2xl mb-4">Please Loging</h3>
+            <div>
+                <input id="user-email" class="block w-3/4 p-2 border-gray-400 rounded mb-2" type="text"
+                    placeholder="Your Email">
+                <input class="block w-3/4 p-2 border-gray-400 rounded mb-2" type="password" name="" id="user-password"
+                    placeholder="Password">
+                <button id="login-submit" class="bg-yellow-300 py-2 px-4 rounded text-white font-medium">Submit</button>
+                <p style="color:red; display:none;" id="error-mass">Your entered email or password is not correct!!</p>
+            </div>
+        </section>
+    </main>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
+
+<!-- 
+    email: sontan@baap.com
+    password:secret
+-->
